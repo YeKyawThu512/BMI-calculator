@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/09 10:06:12.000.919,=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/09 10:06:40.000.127,C:\Users\MSI\Documents\Embarcadero\Studio\Projects\CalculatingBMI_p.dproj=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/05/09 10:19:30.000.917,C:\Users\MSI\Documents\Embarcadero\Studio\Projects\calculator_u.pas=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/09 10:19:30.000.917,C:\Users\MSI\Documents\Embarcadero\Studio\Projects\calculator_u.dfm=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/05/09 10:19:59.000.543,D:\LearnDelphi-intro\BMI calculator\calculator_u.dfm=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\calculator_u.dfm</Transaction>
+    <Transaction>2019/05/09 10:19:59.000.543,D:\LearnDelphi-intro\BMI calculator\calculator_u.pas=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\calculator_u.pas</Transaction>
+    <Transaction>2019/05/09 10:20:09.000.154,D:\LearnDelphi-intro\BMI calculator\CalculatingBMI_p.dproj=C:\Users\MSI\Documents\Embarcadero\Studio\Projects\CalculatingBMI_p.dproj</Transaction>
+    <Transaction>2019/05/09 11:06:17.000.418,=D:\LearnDelphi-intro\BMI calculator\Unit1.pas</Transaction>
+    <Transaction>2019/05/09 11:10:38.000.530,D:\LearnDelphi-intro\BMI calculator\Unit1.dfm=D:\LearnDelphi-intro\BMI calculator\Success_u.dfm</Transaction>
+    <Transaction>2019/05/09 11:10:38.000.530,D:\LearnDelphi-intro\BMI calculator\Unit1.pas=D:\LearnDelphi-intro\BMI calculator\Success_u.pas</Transaction>
+    <Transaction>2019/05/09 14:03:55.000.924,=D:\LearnDelphi-intro\BMI calculator\Unit1.pas</Transaction>
+    <Transaction>2019/05/13 14:02:22.000.119,D:\LearnDelphi-intro\BMI calculator\Success_u.pas=</Transaction>
+    <Transaction>2019/05/13 15:40:05.000.956,=D:\LearnDelphi-intro\BMI calculator\ModelSupport_CalculatingBMI_p\default.txaPackage</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ModelSupport_CalculatingBMI_p"/>
+    <File Path="ModelSupport_CalculatingBMI_p\default.txaPackage"/>
+    <File Path="calculator_u.pas"/>
+    <File Path="calculator_u.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

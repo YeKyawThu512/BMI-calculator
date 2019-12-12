@@ -1,0 +1,16 @@
+program CalculatingBMI_p;
+
+uses
+  Vcl.Forms,
+  calculator_u in 'calculator_u.pas' {frmForm},
+  Success_u in 'Success_u.pas' {frmSuccess};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmForm, frmForm);
+  Application.CreateForm(TfrmSuccess, frmSuccess);
+  Application.Run;
+end.

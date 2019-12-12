@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{63555E66-C9F4-4DA0-8866-4C39F51683FC}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CalculatingBMI_p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\edt test\Test_p.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CalculatingBMI_p">
+        <MSBuild Projects="CalculatingBMI_p.dproj"/>
+    </Target>
+    <Target Name="CalculatingBMI_p:Clean">
+        <MSBuild Projects="CalculatingBMI_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculatingBMI_p:Make">
+        <MSBuild Projects="CalculatingBMI_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test_p">
+        <MSBuild Projects="..\edt test\Test_p.dproj"/>
+    </Target>
+    <Target Name="Test_p:Clean">
+        <MSBuild Projects="..\edt test\Test_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test_p:Make">
+        <MSBuild Projects="..\edt test\Test_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CalculatingBMI_p;Test_p"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CalculatingBMI_p:Clean;Test_p:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CalculatingBMI_p:Make;Test_p:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
